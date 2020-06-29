@@ -1,3 +1,19 @@
+Memory Game
+============================
+
+* Version: 1.0.0
+* Author: Ryan Powszok
+* Website: [ryanpowszok.com](https://ryanpowszok.com)
+* Copyright: (c) 2020 Ryan Powszok
+* Last Updated: 06/28/2020 Created: 06/28/2020
+
+---
+## Helpful URLs
+- [Memory Game](https://ryanpowszok.github.io/memory-game/)
+
+---
+# Overview
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +82,12 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+---
+## Additional Information
+
+### Changelog
+
+---
+
+Project repo [Memory Game](https://github.com/ryanpowszok/memory-game).
