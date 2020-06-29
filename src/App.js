@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useReducer } from "react";
+import AppProvider from "./providers/appProvider";
+import appReducer, { initialState } from "./reducers/appReducer";
+import Header from "./Components/Header/Header";
+import Cards from "./Components/Cards/Cards";
 
-function App() {
+const App = () => {
+  const state = useReducer(appReducer, initialState);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppProvider value={state}>
+        <Header />
+        <Cards />
+      </AppProvider>
     </div>
   );
-}
+};
 
 export default App;

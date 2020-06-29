@@ -1,0 +1,16 @@
+.Cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .Cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
