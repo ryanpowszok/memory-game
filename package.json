@@ -22,7 +22,12 @@
     "deploy": "gh-pages -b gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app"
+    ],
+    "plugins": [
+      "react-hooks"
+    ]
   },
   "browserslist": {
     "production": [
@@ -37,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "eslint-plugin-react-hooks": "^4.0.4",
     "prettier": "^2.0.5"
   }
 }

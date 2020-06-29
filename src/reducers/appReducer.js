@@ -13,7 +13,7 @@ export const appReducer = (state, action) => {
     case "INCREMENT_TURNS":
       return {
         ...state,
-        turns: state.turns++,
+        turns: state.turns + 1,
       };
 
     default:

@@ -32,12 +32,12 @@ const Cards = () => {
     )
       return;
 
-    appState.incrementTurns();
-
     if (!selectedKeys.length) {
       setCards({ ...cards, selected: { [id]: true } });
       return;
     }
+
+    appState.incrementTurns();
 
     const firstCardId = selectedKeys[0];
     if (getDataById(firstCardId, data).label === getDataById(id, data).label) {
