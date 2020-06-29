@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/memory-game/static/css/main.5f361e03.chunk.css",
-    "main.js": "/memory-game/static/js/main.201ddab5.chunk.js",
-    "main.js.map": "/memory-game/static/js/main.201ddab5.chunk.js.map",
+    "main.css": "/memory-game/static/css/main.bde4a8c8.chunk.css",
+    "main.js": "/memory-game/static/js/main.b65a33a5.chunk.js",
+    "main.js.map": "/memory-game/static/js/main.b65a33a5.chunk.js.map",
     "runtime-main.js": "/memory-game/static/js/runtime-main.cd8959cd.js",
     "runtime-main.js.map": "/memory-game/static/js/runtime-main.cd8959cd.js.map",
-    "static/js/2.b656477a.chunk.js": "/memory-game/static/js/2.b656477a.chunk.js",
-    "static/js/2.b656477a.chunk.js.map": "/memory-game/static/js/2.b656477a.chunk.js.map",
+    "static/js/2.912b3799.chunk.js": "/memory-game/static/js/2.912b3799.chunk.js",
+    "static/js/2.912b3799.chunk.js.map": "/memory-game/static/js/2.912b3799.chunk.js.map",
     "index.html": "/memory-game/index.html",
-    "precache-manifest.8486f74f858beaf5ae6d2c84ff65229e.js": "/memory-game/precache-manifest.8486f74f858beaf5ae6d2c84ff65229e.js",
+    "precache-manifest.88f362e32a1a8628b658bec1d866d8cb.js": "/memory-game/precache-manifest.88f362e32a1a8628b658bec1d866d8cb.js",
     "service-worker.js": "/memory-game/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/memory-game/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.b656477a.chunk.js.LICENSE.txt": "/memory-game/static/js/2.b656477a.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/memory-game/static/media/logo.5d5d9eef.svg"
+    "static/css/main.bde4a8c8.chunk.css.map": "/memory-game/static/css/main.bde4a8c8.chunk.css.map",
+    "static/js/2.912b3799.chunk.js.LICENSE.txt": "/memory-game/static/js/2.912b3799.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cd8959cd.js",
-    "static/js/2.b656477a.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.201ddab5.chunk.js"
+    "static/js/2.912b3799.chunk.js",
+    "static/css/main.bde4a8c8.chunk.css",
+    "static/js/main.b65a33a5.chunk.js"
   ]
 }
