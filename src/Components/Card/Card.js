@@ -23,7 +23,11 @@ const Card = ({ id, index, isMatched, label, isSelected, selectCard }) => {
 
   return (
     <div
-      className={cn("Card", { "Card--flipped": isFlipped })}
+      className={cn(
+        "Card",
+        { "Card--flipped": isFlipped },
+        { "Card--matched": isMatched }
+      )}
       role="button"
       tabIndex="0"
       onClick={handleCardClick}
